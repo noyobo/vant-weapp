@@ -10,6 +10,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "preMinipackBuild": "yarn run build:lib && yarn run build:example",
+    "build:example": "node build/build-example.mjs",
     "dev": "node build/dev.mjs",
     "lint": "eslint ./packages --ext .js,.ts --fix && stylelint \"packages/**/*.less\" --fix",
     "prepare": "husky install",
