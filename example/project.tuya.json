@@ -1,0 +1,18 @@
+{
+  "projectname": "vant_miniprogram",
+  "i18n": false,
+  "description": "Vant 是一个轻量、可靠的移动端组件库",
+  "baseversion": "2.10.1",
+  "projectId": "ty9ciw3aqk1ejohun7",
+  "dependencies": {
+    "BaseKit": "3.0.0",
+    "BizKit": "3.0.1",
+    "MiniKit": "3.0.0"
+  },
+  "compilerOptions": {
+    "compatible": [
+      "wx"
+    ]
+  },
+  "compileType": "miniprogram"
+}
