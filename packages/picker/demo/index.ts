@@ -3,7 +3,7 @@ import Toast from '../../toast/toast';
 
 VantComponent({
   data: {
-    column1: ['杭州', '宁波', '温州', '嘉兴', '湖州'],
+    column1: ['杭州1', '宁波2', '温州3', '嘉兴4', '湖州5'],
     column2: [
       { text: '杭州', disabled: true },
       { text: '宁波' },

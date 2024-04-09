@@ -10,6 +10,8 @@
     "MiniKit": "3.0.0"
   },
   "compilerOptions": {
-    "sourceType": "wechat"
+    "compatible": [
+      "wx"
+    ]
   }
 }
